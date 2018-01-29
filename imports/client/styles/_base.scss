@@ -1,0 +1,41 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Rubik', Arial, sans-serif;
+  font-size: $base-font-size;
+  font-weight: 400;
+}
+
+h1 {
+  font-weight: 500;
+  font-size: 2.4rem;
+  margin-bottom: 3rem;
+}
+
+h2 {
+  font-weight: 500;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+p {
+  margin-bottom: 2rem;
+}
+
+a {
+  color: black;
+}
+
+input[type=text], input[type=email], input[type=password] {
+  border: 1px solid $input-border;
+  font-size: $base-font-size;
+  margin-bottom: 1rem;
+  padding: 1rem;
+}

@@ -1,0 +1,11 @@
+.item {
+  background: $item-bg;
+  border: 1px solid $item-border;
+  margin-bottom: 2rem;
+  padding: 2rem;
+  border-radius: 2px;
+}
+
+.item__info {
+  color: $darkgrey;
+}
