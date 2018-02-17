@@ -21,3 +21,5 @@ accounts-password
 session
 fourseven:scss
 johnantoni:meteor-normalize
+practicalmeteor:mocha
+react-meteor-data
