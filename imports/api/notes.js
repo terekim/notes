@@ -24,6 +24,7 @@ Meteor.methods({
       updatedAt: moment().valueOf()
     })
   },
+  
   'notes.remove'(_id) {
     if (!this.userId) {
       throw new Meteor.Error('not-authorized');
@@ -38,6 +39,7 @@ Meteor.methods({
 
     Notes.remove({ _id, userId: this.userId });
   },
+
   'notes.update'(_id, updates) {
     if (!this.userId) {
       throw new Meteor.Error('not-authorized');
