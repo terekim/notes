@@ -11,7 +11,9 @@ import '../imports/startup/simple-schema-configuration.js';
 Tracker.autorun(() => {
   const isAuthenticated = !!Meteor.userId();
   console.log('isAuthenticated', isAuthenticated);
-  onAuthChange(isAuthenticated);
+  const currentPagePrivacy = Session.get('currentPagePrivacy');
+  console.log('currentPagePrivacy', currentPagePrivacy);
+  onAuthChange(isAuthenticated, currentPagePrivacy);
 });
 
 Tracker.autorun(() => {
