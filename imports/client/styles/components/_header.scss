@@ -3,6 +3,13 @@
   color: white;
 }
 
+.header__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: $header-height;
+}
+
  .header__title {
    margin: 0;
  }

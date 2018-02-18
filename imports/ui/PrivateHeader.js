@@ -8,7 +8,7 @@ import { createContainer } from 'meteor/react-meteor-data';
 export const PrivateHeader = (props) => {
   return (
     <div className="header">
-      <div className="wrapper wrapper--header">
+      <div className="page-content header__content">
         <h1 className="header__title">{props.title}</h1>
         <button className="button button--menu" onClick={() => props.handleLogout()}>logout</button>
       </div>
